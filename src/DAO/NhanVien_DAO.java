@@ -41,7 +41,7 @@ public class NhanVien_DAO {
 				java.sql.Date ngaySinh = rs.getDate("ngaySinh");
 				String hoTen = rs.getString("hoTen");
 				Boolean gioiTinh = rs.getBoolean("gioiTinh");
-				String SoDienThoai = rs.getString("SoDienThoai");
+				String SoDienThoai = rs.getString("soDienThoai");
 				String diaChi = rs.getString("diaChi");
 				String trangThai = rs.getString("trangThai");
 				String anhThe = rs.getString("anhThe");
